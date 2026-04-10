@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design Grundlagen: Slider</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 2rem; }
+      .slider {
+        width: min(520px, 100%);
+        display: flex;
+        overflow-x: auto;
+        gap: 1rem;
+        scroll-snap-type: x mandatory;
+      }
+      .slide {
+        min-width: 220px;
+        height: 140px;
+        border-radius: 0.8rem;
+        display: grid;
+        place-items: center;
+        color: white;
+        font-weight: bold;
+        scroll-snap-align: start;
+      }
+      .slide:nth-child(1) { background: #ff6b6b; }
+      .slide:nth-child(2) { background: #4ecdc4; }
+      .slide:nth-child(3) { background: #1a535c; }
+    </style>
+  </head>
+  <body>
+    <h1>Slider mit CSS Scroll Snap</h1>
+    <div class="slider">
+      <div class="slide">Slide 1</div>
+      <div class="slide">Slide 2</div>
+      <div class="slide">Slide 3</div>
+    </div>
+  </body>
+</html>

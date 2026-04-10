@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f4ff;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.karte {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #2d4fff;
+}

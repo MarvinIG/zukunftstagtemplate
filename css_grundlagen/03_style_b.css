@@ -1,0 +1,23 @@
+/* Styling B für 03_formulare_semantik.html */
+body {
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  background-color: #faf5ff;
+  color: #2d1b46;
+}
+
+header,
+footer {
+  border-bottom: 3px solid #7b2cbf;
+  padding: 1rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+input,
+button {
+  padding: 0.5rem;
+  border: 2px solid #7b2cbf;
+}
