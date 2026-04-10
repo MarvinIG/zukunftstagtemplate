@@ -1,0 +1,12 @@
+/* Styling A für 01_ueberschriften_absaetze.html */
+body {
+  font-family: Georgia, serif;
+  margin: 2rem;
+  line-height: 1.6;
+  background-color: #fff9f2;
+  color: #3e2f1c;
+}
+
+h1, h2, h3 {
+  color: #c45400;
+}

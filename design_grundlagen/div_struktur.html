@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design Grundlagen: Div Struktur</title>
+    <style>
+      body { margin: 0; font-family: Arial, sans-serif; }
+      .seite { min-height: 100vh; display: grid; grid-template-rows: auto 1fr auto; }
+      .kopf, .fuss { background: #223; color: #fff; padding: 1rem; }
+      .inhalt { display: grid; grid-template-columns: 220px 1fr; }
+      .sidebar { background: #dde3ff; padding: 1rem; }
+      .main { padding: 1rem; }
+    </style>
+  </head>
+  <body>
+    <div class="seite">
+      <div class="kopf">Header-Bereich</div>
+      <div class="inhalt">
+        <div class="sidebar">Sidebar</div>
+        <div class="main">Hauptinhalt</div>
+      </div>
+      <div class="fuss">Footer-Bereich</div>
+    </div>
+  </body>
+</html>

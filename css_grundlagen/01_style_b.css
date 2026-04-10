@@ -1,0 +1,13 @@
+/* Styling B für 01_ueberschriften_absaetze.html */
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  margin: 2rem;
+  background: linear-gradient(180deg, #eef6ff, #ffffff);
+  color: #1f2d3d;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #0057cc;
+}

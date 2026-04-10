@@ -1,0 +1,22 @@
+/* Styling A für 03_formulare_semantik.html */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header,
+footer {
+  background: #2f80ed;
+  color: white;
+  padding: 1rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+form {
+  display: grid;
+  gap: 0.75rem;
+  max-width: 320px;
+}

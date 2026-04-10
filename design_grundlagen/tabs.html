@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design Grundlagen: Tabs</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 2rem; }
+      .tabs { display: flex; gap: 0.5rem; }
+      .tab { padding: 0.6rem 1rem; border: 2px solid #2d6cdf; border-radius: 0.5rem 0.5rem 0 0; background: #e9f0ff; }
+      .panel { border: 2px solid #2d6cdf; padding: 1rem; border-radius: 0 0.5rem 0.5rem 0.5rem; }
+    </style>
+  </head>
+  <body>
+    <h1>Tabs (statisch, ohne JavaScript)</h1>
+    <div class="tabs">
+      <div class="tab">Tab 1</div>
+      <div class="tab">Tab 2</div>
+      <div class="tab">Tab 3</div>
+    </div>
+    <div class="panel">Inhalt des aktuell gezeigten Tabs.</div>
+  </body>
+</html>
